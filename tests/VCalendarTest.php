@@ -1,5 +1,5 @@
 <?php
-
+use PHPUnit\Framework\TestCase;
 use Davaxi\VCalendar as VCalendar;
 
 class VCalendarMockup extends VCalendar
@@ -10,7 +10,7 @@ class VCalendarMockup extends VCalendar
     }
 }
 
-class VCalendar_Test extends PHPUnit_Framework_TestCase
+class VCalendar_Test extends TestCase
 {
     /**
      * @var VCalendarMockup

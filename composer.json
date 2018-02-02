@@ -19,6 +19,12 @@
       "email": "stratagem.david@gmail.com",
       "homepage": "https://www.patiashvili.fr/",
       "role": "Developer"
+    },
+    {
+      "name": "Arne K. Haaje",
+      "email": "arne@drlinux.no",
+      "homepage": "https://www.drlinux.no/",
+      "role": "Developer"
     }
   ],
   "support": {
@@ -30,8 +36,9 @@
     "php": ">=5.3.0"
   },
   "require-dev": {
-    "php": ">=5.3.0",
-    "codeclimate/php-test-reporter": "dev-master"
+    "php": ">=7.1.0",
+    "codeclimate/php-test-reporter": "dev-master",
+    "phpunit/phpunit": "^7"
   },
   "autoload": {
     "psr-4": {
